@@ -1,0 +1,19 @@
+.footer {
+    padding: 1.5rem 4rem;
+}
+
+.footer__rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__rodape p {
+    margin: 0.2rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        padding: 1.5rem 6rem;
+    }
+}

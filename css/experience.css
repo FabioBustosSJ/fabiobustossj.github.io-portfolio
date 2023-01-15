@@ -1,0 +1,67 @@
+.experience__section__title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.experience__list {
+    padding: 0;
+}
+
+.experience__list__box {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 .5rem;
+}
+
+.experience__title {
+    margin: .5rem;
+}
+
+.experience__text {
+    margin: .5rem;
+    font-weight: normal;
+}
+
+.experience__repo button{
+    background-color: white;
+    border: solid 1px rgb(48, 48, 248);
+    color: rgb(48, 48, 248);
+    width: 115px;
+    height: 50px;
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+.experience__demo button {
+    background-color: rgb(48, 48, 248);
+    border: solid 1px rgb(48, 48, 248);
+    color: white;
+    width: 115px;
+    height: 50px;
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+
+@media screen and (min-width: 768px) {    
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .experience__list__box {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem 6rem;
+    }
+
+    .experience__list__box:nth-child(2n+2) {
+        flex-direction: row-reverse;
+    }
+}

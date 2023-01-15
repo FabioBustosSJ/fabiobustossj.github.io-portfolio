@@ -1,0 +1,55 @@
+.skills {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    background: #ecebeb;
+}
+
+.skills__title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #ecebeb;
+    padding: 0 2rem;
+}
+
+.skills__box {
+    width: 43%;
+    height: 150px;
+    background: white;
+    padding: .5rem .5rem;
+    margin: .5rem 0;
+}
+
+.skills__box ul {
+    text-align: start;
+    padding: 0;
+    position: relative;
+    top: 5rem;
+}
+
+/*    RESPONSIVE   */
+
+@media screen and (min-width: 768px) {
+    .skills__box {
+        width: 28%;
+        height: 150px;
+        background: white;
+        padding: .5rem 1rem;
+        margin: .5rem 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .skills__box {
+        width: 13%;
+        height: 150px;
+        background: white;
+        padding: 0 .5rem;
+    }
+}
