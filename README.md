@@ -1,7 +1,11 @@
 # Challenge ONE | Front End -  Portafolio
 
 <p align="center" >
+<<<<<<< HEAD
      <img width="600" heigth="600" src="https://fabiobustossj.github.io/fabiobustossj.github.io-portfolio/assets/portfolio.png">
+=======
+     <img width="600" heigth="600" src="https://raw.githubusercontent.com/FabioBustosSJ/fabiobustossj.github.io-portfolio/master/assets/portfolio.png">
+>>>>>>> ea95341a8ffa49142ddd4175cf3064f6fd60fc67
 </p>
 
 
